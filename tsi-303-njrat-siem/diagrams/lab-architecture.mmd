@@ -1,0 +1,19 @@
+flowchart LR
+    subgraph HOSTONLY["Red virtual solo-anfitrion (VMware) - sin salida a internet"]
+        V["Victima
+Windows 10 Education SP0 x64
+DESKTOP-KGAS8P5
+10.6.97.137"]
+        A["Atacante
+Windows 10
+Panel njRAT v0.7d - puerto 1177
+10.6.97.139"]
+    end
+    SIEM["Ubuntu Server
+Wazuh manager/indexer/dashboard
+hostname: soc-emely
+IP: 10.6.97.138"]
+
+    V -- "C2: TCP 1177 (Server.exe)" --> A
+    V -- "Agente Wazuh (agent.id 004)
+Sysmon + Security log" --> SIEM

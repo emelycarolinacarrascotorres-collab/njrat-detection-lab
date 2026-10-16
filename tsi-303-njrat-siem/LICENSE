@@ -1,0 +1,24 @@
+MIT License
+
+Copyright (c) 2026 Emely (autora de la práctica TSI-303)
+
+Se concede permiso, de forma gratuita, a cualquier persona que obtenga una
+copia de este software y de los archivos de documentación asociados (el
+"Software/Documentación"), para utilizar el Software/Documentación sin
+restricción, incluyendo sin limitación los derechos de uso, copia,
+modificación, fusión, publicación, distribución, sublicencia y/o venta de
+copias del Software/Documentación, sujeto a las siguientes condiciones:
+
+El aviso de copyright anterior y este aviso de permiso se incluirán en
+todas las copias o partes sustanciales del Software/Documentación.
+
+EL SOFTWARE/DOCUMENTACIÓN SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE
+NINGÚN TIPO, EXPRESA O IMPLÍCITA. EN NINGÚN CASO LOS AUTORES SERÁN
+RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑO U OTRA RESPONSABILIDAD.
+
+---
+
+Nota: esta licencia cubre el contenido documental y los scripts originales
+de este repositorio. No se otorga licencia sobre herramientas de terceros
+mencionadas o referenciadas (Wazuh, Microsoft Sysinternals, njRAT); cada
+una se rige por su propia licencia.
